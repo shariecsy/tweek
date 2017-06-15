@@ -1,0 +1,342 @@
+.doctor-list-content{
+    text-align:left;
+}
+.choose-hospital-top{
+    background: #fff;
+    margin-bottom: 8px;
+    padding: 10px;
+    position:relative;
+    height: 45px;
+}
+.choose-hospital-top span{
+    font-size: 14px;
+    color: #989cab;
+    position: absolute;
+    left:30px;
+    top:50%;
+    transform: translate(0,-50%);
+}
+.choose-hospital-top .am-icon-map-marker{
+    position: absolute;
+    left:10px;
+    top:50%;
+    transform: translate(0,-50%);
+    font-size: 22px;
+}
+.choose-hospital-top .am-icon-angle-right{
+    font-size: 30px;
+    color: #ccd1dc;
+    position: absolute;
+    right: 20px;
+    top:50%;
+    transform: translate(0,-50%);
+}
+.choose-city{
+    height: 100%;
+    background:#fff;
+    padding:10px 15px 0;
+}
+.choose-city .search-widget{
+    position:relative;
+}
+.choose-city input{
+    box-shadow: 0 4px 12px rgba(118, 141, 251, .35);
+    padding: 11px 10px;
+    padding-left: 40px;
+    font-size: 14px;
+    color: #989cab;
+    width: 100%;
+    border-radius: 18px;
+    border: none;
+    -webkit-appearance: none;
+    outline: none;
+    height: auto;
+    box-sizing: inherit;
+}
+.choose-city .am-icon-search{
+    font-size: 20px;
+    color: #989cab;
+    position: absolute;
+    left: 15px;
+    height: 100%;
+    top: 0px;
+}
+.choose-city .city-list{
+    overflow: hidden;
+    padding-top: 15px;
+}
+.choose-city .city-list a{
+    display: block;
+    width: 27%;
+    color: #7087f4;
+    overflow: hidden;
+    font-size: 14px;
+    padding: 6px 0;
+    margin: 8px 3% 10px 3%;
+    float: left;
+    text-align: center;
+    border: 1px solid #7692fc;
+    -webkit-border-radius: 21px;
+    border-radius: 21px;
+}
+.rgstr-type-top{
+    padding:30px;
+    background:#fff;
+}
+.rgstr-type-top ul{
+    padding:0;
+}
+.rgstr-type-top li{
+    float:left;
+    width:50%;
+    text-align:center;
+    border-left:1px solid #E4E4E4;
+}
+.rgstr-type-top li:first-child{
+    border:0;
+}
+.rgstr-type-notice{
+    padding:10px;
+}
+.rgstr-type-notice p{
+    font-size:14px;
+    padding-top: 10px;
+    color:#999;
+}
+.date-container{
+    background:#fff;
+    padding: 10px;
+    text-align:center;
+    font-size:14px;
+}
+.date-container .date-list li.grey{
+     color:#999;
+}
+.date-container ul{
+    padding:0;
+}
+.date-container .date-list li,.date-container .day-list li{
+    float:left;
+    width:14%;
+    padding: 5px;
+    border: 1px solid transparent;
+}
+.date-container li.active{
+    border:1px solid #708bff;
+    color:#708bff;
+}
+.date-container .day-list{
+    border-bottom:1px solid #E4E4E4;
+}
+.date-container .showMore{
+    border-top:1px solid #E4E4E4;
+}
+.choose-doctor{
+    padding-top: 20px;
+    text-align:center;
+    color:#999;
+    font-size:14px;
+}
+.choose-doctor p{
+    padding-top: 20px;
+}
+.doctor-list-content p{
+    padding:0;
+}
+.choose-type .app-notice{
+    color:#666;
+    font-size:14px;
+    padding-top: 40px;
+}
+.choose-type .app-notice i.am-icon-check-square{
+    color:#708bff;
+}
+.doctor-info{
+    font-size:14px;
+    background:#fff;
+}
+.doctor-info ul{
+    padding: 10px;
+}
+.doctor-info .showMore{
+    color:#708bff;
+    text-align:center;
+    border-top:1px solid #E4E4E4;
+    padding:5px 0;
+}
+.doctor-info .fold{
+    height: 70px;
+    overflow: hidden;
+}
+.doctor-info li{
+    float:left;
+}
+.doctor-info li.box-left{
+    width:20%;
+}
+.doctor-info li.box-right{
+    width:80%;
+}
+.doctor-info li .brief-title{
+    position:relative;
+}
+.doctor-info li img{
+    width: 45px;
+    height: 45px;
+}
+.doctor-info li .favourite{
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    right: 0;
+    display: inline-block;
+    border-radius: 4px;
+    background: #708bff;
+    color: #fff;
+    font-size: 12px;
+    padding:2px 8px;
+
+}
+.doctor-info li .favourite .am-icon-star{
+    color: #ffff00;
+    margin-right: 4px;
+}
+.doctor-info li .title,.doctor-info li .brief{
+    font-size:12px;
+    color:#999;
+}
+.doctor-info li .title{
+    padding-left: 20px;
+}
+
+.doctor-date .showMore{
+    text-align:left;
+    color:#666;
+    padding: 5px;
+}
+.doctor-time{
+    padding:10px;
+    background:#fff;
+}
+.doctor-time li{
+    color:#999;
+}
+.doctor-time span.blue{
+    color:#708bff;
+}
+.doctor-time span.price{
+    padding-left: 30%;
+}
+.doctor-time span.status{
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    right: 30px;
+}
+.doctor-time span.orange{
+    color: #ff4500;
+}
+.regist-confirm{
+    font-size:14px;
+}
+.regist-confirm .info{
+    background:#fff;
+    padding: 10px;
+}
+.regist-confirm li{
+    border-bottom:1px solid #E4E4E4;
+    padding:5px 0;
+    position:relative;
+}
+.regist-confirm .info li:last-child,.regist-confirm .choose-patient li:last-child,.regist-confirm .description li:last-child{
+    border-bottom:0;
+}
+.regist-confirm .info span.right-item{
+    color:#999;
+}
+.regist-confirm .info span.price{
+    color:#708bff;
+}
+.regist-confirm .choose-patient{
+    background:#fff;
+    padding: 10px;
+    margin-top: 10px;
+}
+.regist-confirm .title,.regist-confirm .cardNo{
+    font-size:12px;
+    color:#999;
+}
+.regist-confirm .choose-patient .add-patient{
+    color:#708bff;
+}
+.regist-confirm .list-right{
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    right: 10px;
+}
+.regist-confirm .choose-patient .right-arrow{
+    font-size: 30px;
+    color: silver;
+}
+
+.regist-confirm .choose-patient .bind-card{
+    background: #fff;
+    border: 1px solid #7087f4;
+    color: #7087f4;
+    font-size: 12px;
+    padding: 2px 8px;
+    display: inline-block;
+    border-radius: 4px;
+}
+.regist-confirm .description{
+    background:#fff;
+    padding: 10px;
+    margin-top: 10px;
+}
+.regist-confirm .description textarea{
+    border:0;
+    font-size:12px;
+    width:100%;
+}
+.regist-confirm .payment{
+    background:#fff;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.payment img{
+    width: 25px;
+}
+.payment .am-icon-check{
+    color:#708bff;
+}
+.payment .method{
+    padding-left:30px;
+}
+.confirm-layer .layer-body{
+    padding:0;
+    text-align:center;
+}
+.confirm-layer .layer-title{
+    font-size:16px;
+    color:#708bff;
+    border-bottom:1px solid #E4E4E4;
+    margin:0;
+    padding:10px 0;
+}
+.confirm-layer .layer-text{
+    font-size:14px;
+    padding:20px 0 40px;
+    border-bottom:1px solid #E4E4E4;
+}
+.confirm-layer a{
+    width:48%;
+    padding:10px 0;
+    border-left:1px solid #E4E4E4;
+}
+.confirm-layer a:first-child{
+     width:48%;
+     padding:10px 0;
+     border:0;
+ }

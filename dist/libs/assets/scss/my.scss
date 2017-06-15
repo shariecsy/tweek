@@ -1,0 +1,172 @@
+@charset "utf-8";
+@import "ucs";
+
+.fl-l {
+  float: left;
+}
+
+.fl-r {
+  float: right;
+}
+
+.my-message {
+
+}
+
+.tips {
+  margin: 8px 10px;
+  font-size: 1.2rem;
+  color: #999;
+  i {
+    color: orange;
+  }
+}
+
+.bottom-btn {
+  margin: 10px;
+  text-align: center;
+}
+
+.my-family {
+  ul {
+    padding: 5px 8px;
+    li {
+      display: table;
+      padding: 10px;
+      background-color: #fff;
+      width: 100%;
+      box-sizing: border-box;
+      &:after {
+        clear: both;
+      }
+    }
+  }
+  i {
+    font-style: normal;
+  }
+  .portrait {
+    display: table-cell;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 52px;
+    img {
+      width: 42px;
+      height: 42px;
+    }
+  }
+  .text-box {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+.nodata {
+  margin: 100px auto;
+  text-align: center;
+  p {
+    font-size: 1.2rem;
+    color: #999;
+  }
+}
+
+.add-family, .perfect-info {
+  font-size: 1.4rem;
+  color: #666;
+  label {
+    width: 30%;
+    font-weight: normal;
+  }
+  .relation {
+    height: 34px;
+    line-height: 34px;
+    padding: 0 10px;
+    background: #fff;
+    &:after {
+      clear: both;
+    }
+  }
+  ul {
+    margin: 10px 0;
+    background: #fff;
+    li {
+      margin: 0 8px;
+      border-bottom: 1px solid #eee;
+      height: 34px;
+      line-height: 34px;
+    }
+    input {
+      border: none;
+      width: 70%;
+      height: 34px;
+      line-height: 34px;
+      text-align: right;
+      float: right;
+    }
+    .radio {
+      float: right;
+      height: 34px;
+      line-height: 34px;
+      input {
+        float: none;
+        margin-top: 0;
+        margin-left: 10px;
+        vertical-align: middle;
+        width: auto;
+      }
+    }
+  }
+  select {
+    width: 70%;
+    height: 34px;
+    float: right;
+    border: none;
+  }
+}
+
+.my-payment {
+  .ucs-tabs {
+    background: #fff;
+    .ucs-tabs-bar {
+      li {
+        border-left: 1px solid #f3f3f3;
+        padding: 0;
+        width: 33.3333%;
+      }
+    }
+  }
+}
+
+.my-setting {
+  .am-list > li {
+    padding: .8rem 10px;
+  }
+  .am-list > li > a {
+    padding: 0;
+  }
+  i {
+    font-style: normal;
+  }
+  .am-icon-angle-right {
+    float: right;
+
+  }
+  .feedback-list {
+    .icon-left {
+      background: #708bff;
+      border-radius: 50%;
+      width: 30px;
+      text-align: center;
+      line-height: 30px;
+      font-size: 12px;
+      color: #fff;
+      margin-right: 10px;
+    }
+    .am-icon-list-alt {
+      background: #34b734;
+    }
+  }
+}
+
+.my-feedback{
+
+}

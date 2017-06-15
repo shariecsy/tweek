@@ -1,0 +1,166 @@
+.register-box .item button:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+
+.main-body{
+    background:#fff;
+}
+.register-box{
+    margin:0 20px;
+}
+.register-box .item{
+    border-bottom:1px solid #e4e4e4;
+    font-size:14px;
+    padding: 10px 0;
+    position:relative;
+    height: 56px;
+}
+.register-box .item.reg-code-box{
+    display:none;
+}
+.register-box .item.reg-code-box.block{
+    display:block;
+}
+.register-box .item.reg-code-show {
+    text-align: center;
+    color: #7087f4;
+    padding: 12px 0 !important;
+}
+.register-box .item:last-child{
+    border:0;
+}
+
+.register-box .item .label{
+    font-weight:400;
+    margin-bottom:0;
+    position:absolute;
+    left: 0;
+    top: 20px;
+}
+.register-box .item input{
+    border:0;
+    position:absolute;
+    top:20px;
+    left:20%;
+    height: 24px;
+    line-height: 24px;
+    width: 160px;
+
+}
+.register-box .item input::-webkit-input-placeholder{
+    color: #aeaeae !important;
+}
+.register-box .item button, .register-box .item button:active,.register-box .item button:focus{
+    border:0;
+    position:absolute;
+    top:20px;
+    right:0px;
+    background: linear-gradient(145deg, #7ca5ff,#7a9ffe, #6f84f7);
+    box-shadow: 0 4px 12px rgba(118, 141, 251, .35);
+    color:#fff;
+    min-width: 85px;
+}
+.register-box .item .gettingCode{
+    background: #fff;
+    border: 1px solid #7087f4;
+    color: #7087f4;
+    box-shadow: 0 0 0 0;
+}
+
+body{
+    background:#edf3ff;
+}
+.app-notice{
+    margin: 0 20px;
+    padding: 10px 0;
+    font-size:12px;
+    color:#999;
+    position:relative;
+}
+.app-notice span{
+    margin-left:20px;
+}
+.app-notice i{
+    font-size:2rem;
+    margin-right:10px;
+    position:absolute;
+    top:2px;
+    left:0;
+}
+.app-notice i.am-icon-check-circle{
+    color:#708bff;
+}
+.register-box .btn{
+    width:100px;
+    font-size:14px;
+    height: 35px;
+    line-height: 35px;
+}
+.validate-code-img{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.validate-code-img img{
+    margin-right: 10px;
+}
+.pwdBox{
+    padding-bottom: 12px;
+}
+.inputBoxContainer{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 12px;
+}
+.inputBoxContainer .realInput{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.inputBoxContainer .bogusInput{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.inputBoxContainer .bogusInput input{
+    padding: 0;
+    width: 25%;
+    height: 70px;
+    margin-top: -10px;
+    float: left;
+    background: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    border-right: 1px solid #ddd;
+    -webkit-appearance: none;
+}
+.am-icon-eye{
+    color: #4a515f;
+    font-size: 20px;
+    right: 16px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.am-icon-eye.active{
+    color: #7087f4;
+}
+.am-icon-angle-double-down{
+    color: #7087f4;
+    vertical-align: -1px;
+    font-size: 13px;
+    margin-left: 6px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}

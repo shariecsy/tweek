@@ -1,0 +1,87 @@
+html, body, div, span, table, tbody, tr, th, td, em, img, strong, h1, h2, h3, h4, h5, h6, p, a, dl, dd, dt, ol, ul, li, form, label, input, textarea, button, b, i, u, sup { margin: 0; padding: 0; list-style: none; outline: none; }
+
+h1, h2, h3, h4, h5, h6, b { font-weight: 400; }
+
+a, img { text-decoration: none; border: 0; }
+
+body { font-family: Arial, "Microsoft YaHei", "simsun"; color: #666; background: #fff; font-size: 14px; }
+
+html, body { height: 100%; background: #edf3ff; }
+
+a { color: #666; font-size: 14px; }
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; color: #333; }
+a:hover { text-decoration: none; color: #333; }
+a:active { text-decoration: none; color: #f00; }
+
+table { border-collapse: collapse; border-spacing: 0; width: 100%; }
+
+.f-left { float: left; }
+
+.f-right { float: right; }
+
+.clear { clear: both; }
+
+.clearfix:after { display: block; content: '.'; clear: both; height: 0; line-height: 0; visibility: hidden; }
+
+::-webkit-input-placeholder { color: #999; }
+
+:-moz-placeholder { color: #999; opacity: 1; }
+
+::-moz-placeholder { color: #999; opacity: 1; }
+
+:-ms-input-placeholder { color: #999 !important; }
+
+::-ms-clear, ::-ms-reveal { display: none; }
+
+.container { width: 1200px; margin: 0 auto; }
+
+.ucs-tabs .ucs-tabs-bar { border-bottom: 1px solid #f3f3f3; height: 40px; position: relative; }
+.ucs-tabs .ucs-tabs-bar:after { display: block; content: '.'; clear: both; height: 0; line-height: 0; visibility: hidden; }
+.ucs-tabs .ucs-tabs-bar li { cursor: pointer; float: left; font-size: 16px; height: 40px; line-height: 43px; padding: 0 40px; text-align: center; }
+.ucs-tabs .ucs-tabs-bar li i { display: inline-block; width: 20px; height: 20px; line-height: 20px; vertical-align: middle; margin-right: 5px; background: #708bff; }
+.ucs-tabs .ucs-tabs-bar li.ucs-tabs-active { background: #fff; border-bottom: 2px solid #708bff; color: #708bff; }
+.ucs-tabs .ucs-tabs-content { padding: 10px; }
+.ucs-tabs .ucs-tabs-content .ucs-tabs-tabpane { display: none; }
+.ucs-tabs .ucs-tabs-content .ucs-tabs-tabpane:first-child { display: block; }
+
+.fl-l { float: left; }
+
+.fl-r { float: right; }
+
+.tips { margin: 8px 10px; font-size: 1.2rem; color: #999; }
+.tips i { color: orange; }
+
+.bottom-btn { margin: 10px; text-align: center; }
+
+.my-family ul { padding: 5px 8px; }
+.my-family ul li { display: table; padding: 10px; background-color: #fff; width: 100%; box-sizing: border-box; }
+.my-family ul li:after { clear: both; }
+.my-family i { font-style: normal; }
+.my-family .portrait { display: table-cell; vertical-align: middle; margin-right: 10px; width: 52px; }
+.my-family .portrait img { width: 42px; height: 42px; }
+.my-family .text-box { display: table-cell; vertical-align: middle; }
+
+.nodata { margin: 100px auto; text-align: center; }
+.nodata p { font-size: 1.2rem; color: #999; }
+
+.add-family, .perfect-info { font-size: 1.4rem; color: #666; }
+.add-family label, .perfect-info label { width: 30%; font-weight: normal; }
+.add-family .relation, .perfect-info .relation { height: 34px; line-height: 34px; padding: 0 10px; background: #fff; }
+.add-family .relation:after, .perfect-info .relation:after { clear: both; }
+.add-family ul, .perfect-info ul { margin: 10px 0; background: #fff; }
+.add-family ul li, .perfect-info ul li { margin: 0 8px; border-bottom: 1px solid #eee; height: 34px; line-height: 34px; }
+.add-family ul input, .perfect-info ul input { border: none; width: 70%; height: 34px; line-height: 34px; text-align: right; float: right; }
+.add-family ul .radio, .perfect-info ul .radio { float: right; height: 34px; line-height: 34px; }
+.add-family ul .radio input, .perfect-info ul .radio input { float: none; margin-top: 0; margin-left: 10px; vertical-align: middle; width: auto; }
+.add-family select, .perfect-info select { width: 70%; height: 34px; float: right; border: none; }
+
+.my-payment .ucs-tabs { background: #fff; }
+.my-payment .ucs-tabs .ucs-tabs-bar li { border-left: 1px solid #f3f3f3; padding: 0; width: 33.3333%; }
+
+.my-setting .am-list > li { padding: .8rem 10px; }
+.my-setting .am-list > li > a { padding: 0; }
+.my-setting i { font-style: normal; }
+.my-setting .am-icon-angle-right { float: right; }
+.my-setting .feedback-list .icon-left { background: #708bff; border-radius: 50%; width: 30px; text-align: center; line-height: 30px; font-size: 12px; color: #fff; margin-right: 10px; }
+.my-setting .feedback-list .am-icon-list-alt { background: #34b734; }

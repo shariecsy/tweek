@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1,user-scalable=no,maximum-scale=1.0">
+    <title>医程通钱包</title>
+
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+
+    <!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+    <link rel="icon" type="image/png" href="assets/i/favicon.png">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="../libs/assets/i/app-icon72x72@2x.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+    <link rel="apple-touch-icon-precomposed" href="../libs/assets/i/app-icon72x72@2x.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="../libs/assets/i/app-icon72x72@2x.png">
+    <meta name="msapplication-TileColor" content="#0e90d2">
+
+    <link rel="stylesheet" href="../libs/assets/css/amazeui.min.css">
+    <link rel="stylesheet" href="../libs/assets/css/app.css">
+    <link rel="stylesheet" href="../libs/assets/css/syReset.css">
+    <script type="text/javascript" src="../libs/react.js"></script>
+    <script type="text/javascript" src="../libs/react-dom.js"></script>
+    <style>
+        .am-header {
+            position: fixed;
+        }
+        .main-body{
+            margin: 0;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            z-index: 1010;
+            margin-top: 49px;
+            background:#edf3ff;
+        }
+        .yct-wallet-tips{
+            position: absolute;
+            width: 100%;
+            height:auto;
+            z-index: 0;
+            text-align: center;
+            font-size: 15px;
+            bottom: 65px;
+        }
+        .yct-wallet-msg{
+            padding: 30px 0;
+            padding-bottom: 10px;
+        }
+        .yct-wallet-msg p {
+            color: #989cab;
+            font-size: 15px;
+            text-align:center;
+        }
+        .yct-wallet-msg p.mt20{
+            margin-top: 20px;
+        }
+        .icon-wallet-disabled{
+            width: 206px;
+            height: 206px;
+            overflow: hidden;
+            display: inline-block;
+            background: url(../images/sprites-new.png) no-repeat 0 -1860px;
+            background-size: 100% auto;
+        }
+        p.p-agree {
+            color: #4a515f;
+            font-size:12px;
+            position: relative;
+            height: 30px;
+            line-height: 30px;
+            padding-left: 25px;
+            margin-top: 5px;
+        }
+        .p-agree .am-icon-check-circle{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            margin-right: 5px;
+            font-size: 16px;
+        }
+        .bindCard-box{
+            position:fixed;
+            width:100%;
+            height:100%;
+            top:0;
+            left:0;
+            background: #e7e7e7;
+        }
+        .csn-m-scroll{
+            padding-top: 15px;
+            margin-top: 40px;
+        }
+        .csn-box {
+            border-bottom: 1px solid #dfdfdf;
+            border-top: 1px solid #dfdfdf;
+            background: #FFF;
+        }
+        .csn-list li {
+            height: 55px;
+            line-height: 55px;
+            color: #514647;
+            font-size: 15px;
+            padding-left: 15px;
+            position: relative;
+        }
+        .csn-list li label {
+            width: 75px;
+            display: inline-block;
+        }
+        .csn-list .input-txt {
+            border: none;
+            border-bottom: 1px solid #dfdfdf;
+            height: 54px;
+            position: absolute;
+            padding-right: 15px;
+            left: 90px;
+            width: calc(100% - 105px);
+            width: -webkit-calc(100% - 105px);
+            font-size: 15px;
+        }
+        .bindCard-box .csn-btn {
+            display: block;
+            height: 50px;
+            line-height: 50px;
+            margin: 25px 15px;
+            text-align: center;
+            font-size: 15px;
+            color: #fff;
+            overflow: hidden;
+            background: #ccc;
+        }
+        .csn-footer{
+            width: 100%;
+            line-height: 24px;
+            text-align: center;
+            color: #666;
+            background: #E6E9EB;
+            padding: 16px 0;
+            font-size: 12px;
+            position: fixed;
+            bottom:0;
+            left:0;
+            z-index: 100;
+        }
+
+    </style>
+</head>
+<body>
+<div id="merry"></div>
+</body>
+</html>

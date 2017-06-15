@@ -1,0 +1,240 @@
+/* Write your styles */
+
+.swiper-container {
+	height: 180px;
+}
+
+
+/**
+          * Navbar Theme: app
+          */
+
+.am-navbar-app a {
+	color: #b8c1d2;
+}
+
+.am-navbar-app .am-active {
+	color: #009e81;
+}
+
+.am-navbar-app .am-navbar-nav {
+	background-color: #ffffff;
+}
+.am-titlebar-default .am-titlebar-title:before{
+    border-color: #009e81;
+}
+.am-navbar-app .am-navbar-actions {
+	background-color: #009e81;
+}
+
+.am-navbar-app .am-navbar-actions a {
+	border-bottom: 1px solid #009e81;
+}
+.am-titlebar-default a {
+    color: #009e81;
+}
+
+/**
+          * Header Theme: app
+          */
+
+.am-header-app {
+	background-color: #48c7b1;
+}
+
+.am-header-app .am-header-title {
+	color: #fff;
+}
+
+.am-header-app .am-header-title a {
+	color: #fff;
+}
+
+.am-header-app .am-header-icon {
+	font-size: 20px;
+}
+
+.am-header-app .am-header-nav {
+	color: #eeeeee;
+}
+
+.am-header-app .am-header-nav>a {
+	display: inline-block;
+	min-width: 36px;
+	text-align: center;
+	color: #eeeeee;
+}
+
+.am-header-app .am-header-nav>a+a {
+	margin-left: 5px;
+}
+
+.am-header-app .am-header-nav .am-btn {
+	margin-top: 9px;
+	height: 31px;
+	padding: 0 0.5em;
+	line-height: 30px;
+	font-size: 14px;
+	vertical-align: top;
+}
+
+.am-header-app .am-header-nav .am-btn .am-header-icon {
+	font-size: inherit;
+}
+
+.am-header-app .am-header-nav .am-btn-default {
+	color: #999999;
+}
+
+.am-header-app .am-header-nav-title,
+.am-header-app .am-header-nav-title+.am-header-icon {
+	font-size: 14px;
+}
+
+.am-header-nav-center {
+	padding-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+.main-body {
+	margin-bottom: 49px;
+	margin-top: 49px;
+}
+
+.icon-btn-nav-block {
+	padding: 5px;
+}
+
+.box {
+	height: 40px;
+	color: #eee;
+	line-height: 40px;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	transition: all .2s ease;
+}
+.pads{
+	padding: 0 5px;
+}
+.icon-btn {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color: #F37B1D;*/
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	line-height: 66px;
+	color: #48c7b1;
+	font-weight: normal;
+	font-size: 32px;
+}
+
+.icon-btn-title {
+	font-size: 14px;
+	color: #000000;
+	line-height:14px;
+}
+.am-tabs-d2 .am-tabs-nav>.am-active a{
+	color: #009e81;
+}
+.am-tabs-d2 .am-tabs-nav>.am-active{
+	border-color:#009e81;
+}
+.am-tabs-d2 .am-tabs-nav>.am-active:after{
+	border-bottom-color: #009e81;
+}
+.am-titlebar-title-font {
+	font-size: 14px;
+	color: #000000;
+	line-height:14px;
+}
+
+.icon-btn-title-left {
+	height: 30px;
+	font-size: 12px;
+	color: #999;
+	line-height: 120%;
+	text-align: left;
+	margin: 7px 0;
+}
+
+.icon-btn-title-left-subtitle {
+	height: 20px;
+	font-size: 18px;
+	color: #ff9300;
+	line-height:120%;
+	text-align: left;
+}
+
+.tab-list-left {
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+.tab-list-content {
+	font-size: 16px;
+	color: #000000;
+}
+
+.tab-list-wrap {
+	margin: 5px;
+}
+
+.user-info-block{
+	min-height: 120px;
+	background-color: #009e81;
+	margin-bottom: 10px;
+}
+
+.user-info-block-left{
+	position: absolute;
+	top:40px;
+	left: 10px;
+}
+.user-info-block-center{
+	display: block;
+	padding-left: 90px;
+	padding-top: 50px; 
+	font-size: 14px;
+	color: white;
+}
+.user-info-block-right{
+	position: absolute;
+	top:50px;
+  	right: 15px; 
+  	font-size: 30px;
+  	color: silver;
+}
+
+.icon-list {
+	padding: 5px;
+}
+
+.icon-list li{
+	line-height: 48px;
+}
+
+.icon-list-left {
+  padding-left: 10px;
+}
+
+.icon-list-content {
+  padding-left: 15px;
+}
+
+.icon-list-right {
+  position: absolute;
+  right: 10px;
+  font-size: 30px;
+  color: silver;
+}
+.search-box-main { position: relative; padding: 0px 5px 0px 0px; }
+.search-box-main .am-input-group { border: 1px solid #009e81; background: #009e81; border-radius: 18px; }
+.search-box-main .am-input-group-label { background: none; border: none; color: #fff; font-size: 20px; padding: 0px 8px; line-height: 15px; }
+.search-box-main .am-form-field { font-size: 0.9rem;background: none; border: none; left:-20px; line-height: 15px; color: #fff; }
+.search-box-main .am-form-field:focus { box-shadow: none; }
+.search-box-main .am-btn-link { position: absolute; top: 10px; color: #fff; right: 0px; padding: 12px 10px; }
